@@ -28,3 +28,27 @@ System.out.println("输入的不是整数！");
 java.util.Scanner 是 Java5 的新特征，可以通过 Scanner 类来获取用户的输入
 ,语法如下：
 ```Scanner s = new Scanner(System.in);```
+
+### 容器
+1、LinkedList ：LinkedList是个接口：有2个实现类
+- ArrayList：变长数组---随机访问--改，查
+- LinkList：双链表---增，删
+- 常用的方法：
+    - add()：在末尾添加一个元素 
+    - clear()：清空
+    - size()：返回长度
+    - isEmpty()：是否为空
+    - get(i)：获取第i个元素
+    - set(i, val)：将第i个元素设置为val
+
+2、栈：是个类(需要new对象)，继承这个类 ``` java.util.Stack<>```
+- 常用的方法：
+  - push()：压入元素
+  - pop()：弹出栈顶元素，并返回栈顶元素
+  - peek()：返回栈顶元素，但是不会弹栈
+  - size()：返回长度
+  - empty()：栈是否为空
+  - clear()：清空
+
+
+3、Queue
